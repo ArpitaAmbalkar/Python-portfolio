@@ -54,10 +54,12 @@ col1, col2 = st.columns(2)
 with col1:
     st.markdown("""
     - 🖥️ C++ (5★ HackerRank)  
-    - 🐍 Python (Beginner)  
+    - 🐍 Python   
     - 🌐 HTML, CSS  
     - 🛠️ Git, VS Code, Streamlit  
     - 🔍 Problem Solving, Fast Learner  
+    - 🗄️ SQL  
+    - 🧬 Java (Beginner)  
     """)
 
 
