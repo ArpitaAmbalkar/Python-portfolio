@@ -26,6 +26,6 @@ with open("Arpita_Resume.pdf", "rb") as file:
 
 # ---- Contact ----
 st.header("Contact")
-st.write("[GitHub](https://github.com/yourusername)")
-st.write("[LinkedIn](https://linkedin.com/in/yourprofile)")
-st.write("Email: yourmail@example.com")
+st.write("[GitHub](https://github.com/ArpitaAmbalkar)")
+st.write("[LinkedIn](https://www.linkedin.com/in/arpita-ambalkar-47775b252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)")
+st.write("Email: arpitaambalkar26@gmail.com")
