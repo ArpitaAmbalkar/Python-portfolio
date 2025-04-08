@@ -64,7 +64,7 @@ with col1:
 
 
 # ---- Projects ----
-st.header("👩‍💻Projects")
+st.header("👩‍💻 Projects")
 st.write("1. Personal Expense Tracker - A CLI app to track and visualize your expenses.")
 st.write("5. Face Detection using Python - Detects and highlights faces in real-time using OpenCV.")
 st.write("6. Farm Website - A responsive website for farmers and buyers. [Visit Website](https://sureshambalkar.netlify.app/location)")
