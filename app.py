@@ -15,7 +15,7 @@ st.set_page_config(page_title="Arpita's Portfolio", page_icon=":sparkles:")
 st.markdown("""
     <style>
     .intro-section {
-        margin-top: 3cm;
+        margin-top: 8cm;
         display: flex;
         align-items: center;
     }
