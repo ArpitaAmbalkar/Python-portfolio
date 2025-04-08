@@ -34,7 +34,4 @@ st.write("[LinkedIn](https://www.linkedin.com/in/arpita-ambalkar-47775b252?utm_s
 st.write("Email: arpitaambalkar26@gmail.com")
 
 #---------------
-st.sidebar.image("https://avatars.githubusercontent.com/u/12345678", width=150)
-st.sidebar.title("Arpita Ambalkar")
-st.sidebar.markdown("Python Developer | Final Year BE Student")
-st.sidebar.markdown("✉️ arpitaxyz@gmail.com  \n🔗 [GitHub](https://github.com/arpitaambalkar)  \n💼 [LinkedIn](https://linkedin.com/in/arpitaambalkar)")
+
