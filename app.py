@@ -14,8 +14,13 @@ st.set_page_config(page_title="Arpita's Portfolio", page_icon=":sparkles:")
 # ---- CSS for Circular Image ----
 st.markdown("""
     <style>
+    .intro-section {
+        margin-top: 3cm;
+        display: flex;
+        align-items: center;
+    }
     .circular-img {
-        margin_top= 3 cm;
+        
         border-radius: 50%;
         width: 150px;
         height: 150px;
