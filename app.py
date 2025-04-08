@@ -8,7 +8,7 @@ st.set_page_config(page_title="Arpita's Portfolio", page_icon=":sparkles:")
 #with st.container():
     #left_column,right_columns([1,2])
     #with left_column:
-        st.image(image,width=150)
+st.image(image,width=150)
 
 
 
