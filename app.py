@@ -17,7 +17,10 @@ st.write("- Python\n- C++\n- SQL\n- Data Structures\n- Git")
 # ---- Projects ----
 st.header("Projects")
 st.write("1. Personal Expense Tracker - A CLI app to track and visualize your expenses.")
-st.write("2. Resume Analyzer - Python-based tool to check resume quality.")
+st.write("3. Early Depression Detection - ML model to detect signs of early depression using text input.")
+st.write("5. Face Detection using Python - Detects and highlights faces in real-time using OpenCV.")
+st.write("6. Farm Website - A responsive website for farmers and buyers. [Visit Website](https://sureshambalkar.netlify.app/location)")
+
 
 # ---- Resume ----
 st.header("Resume")
