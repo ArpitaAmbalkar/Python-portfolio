@@ -37,8 +37,7 @@ with col1:
     st.markdown(f'<img src="data:image/webp;base64,{image_to_base64(image)}" class="circular-img">', unsafe_allow_html=True)
 
 with col2:
-    st.title("Hi, I'm Arpita!")
-    st.markdown("## 👩‍💻 About Me")
+    st.title("Hi, I'm Arpita!👩‍💻")
     st.subheader("Aspiring Python Developer | C++ Enthusiast | Problem Solver")
     
     st.write("""
@@ -47,13 +46,22 @@ with col2:
     """)
 st.image("https://media3.giphy.com/media/78XCFBGOlS6keY1Bil/giphy.gif?cid=6c09b9524r6u8furf7gf4awp0dz0rgulhx7rfu95rneclhkg&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g", width=300)
 # ---- SKILLS ----
-st.write("## Skills")
-st.markdown("""
-- Languages: C++, Python (Beginner)
-- Web: HTML, CSS
-- Tools: Git, VS Code, Streamlit
-- Soft Skills: Problem Solving, Fast Learner, Consistent
-""")
+# ---- SKILLS SECTION ----
+st.markdown("## 💡 Skills")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown("""
+    - 🖥️ C++ (5★ HackerRank)  
+    - 🐍 Python (Beginner)  
+    - 🌐 HTML, CSS  
+    - 🛠️ Git, VS Code, Streamlit  
+    - 🔍 Problem Solving, Fast Learner  
+    """)
+
+with col2:
+    st.image("https://media3.giphy.com/media/78XCFBGOlS6keY1Bil/giphy.gif?cid=6c09b9524r6u8furf7gf4awp0dz0rgulhx7rfu95rneclhkg&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g", width=250)
 
 # ---- Projects ----
 st.header("Projects")
