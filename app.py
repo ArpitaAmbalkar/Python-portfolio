@@ -1,20 +1,43 @@
 import streamlit as st
 from PIL import Image
+--
+import base64
+from io import BytesIO
+
+def image_to_base64(image):
+    buffer = BytesIO()
+    image.save(buffer, format="WEBP")
+    img_str = base64.b64encode(buffer.getvalue()).decode()
+    return img_str
 
 st.set_page_config(page_title="Arpita's Portfolio", page_icon=":sparkles:")
 
-# ---- Profile Image ----
+# ---- CSS for Circular Image ----
+st.markdown("""
+    <style>
+    .circular-img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# ---- Profile Section with Columns ----
 image = Image.open("my_image.webp")
-st.image(image, width=150)
+col1, col2 = st.columns([1, 3])
 
-# ---- Title and Intro ----
-st.title("Hi, I'm Arpita!")
-st.subheader("Python Developer | C++ Enthusiast | Problem Solver")
+with col1:
+    st.markdown(f'<img src="data:image/webp;base64,{image_to_base64(image)}" class="circular-img">', unsafe_allow_html=True)
 
-st.write("""
-Welcome to my portfolio!  
-Here you can find my projects, resume, and contact info.
-""")
+with col2:
+    st.title("Hi, I'm Arpita!")
+    st.subheader("Python Developer | C++ Enthusiast | Problem Solver")
+    st.write("""
+    Welcome to my portfolio!  
+    Here you can find my projects, resume, and contact info.
+    """)
 
 # ---- Skills ----
 st.header("Skills")
