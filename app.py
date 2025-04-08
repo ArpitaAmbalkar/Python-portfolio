@@ -44,7 +44,7 @@ with col2:
     Welcome to my portfolio!  
     Here you can find my projects, resume, and contact info.
     """)
-st.image("https://media3.giphy.com/media/78XCFBGOlS6keY1Bil/giphy.gif?cid=6c09b9524r6u8furf7gf4awp0dz0rgulhx7rfu95rneclhkg&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g", width=300)
+
 # ---- SKILLS ----
 # ---- SKILLS SECTION ----
 st.markdown("## 💡 Skills")
@@ -60,8 +60,6 @@ with col1:
     - 🔍 Problem Solving, Fast Learner  
     """)
 
-with col2:
-    st.image("https://media3.giphy.com/media/78XCFBGOlS6keY1Bil/giphy.gif?cid=6c09b9524r6u8furf7gf4awp0dz0rgulhx7rfu95rneclhkg&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g", width=250)
 
 # ---- Projects ----
 st.header("Projects")
