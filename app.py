@@ -15,6 +15,7 @@ st.set_page_config(page_title="Arpita's Portfolio", page_icon=":sparkles:")
 st.markdown("""
     <style>
     .circular-img {
+        margin_top= 3 cm;
         border-radius: 50%;
         width: 150px;
         height: 150px;
