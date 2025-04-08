@@ -38,22 +38,26 @@ with col1:
 
 with col2:
     st.title("Hi, I'm Arpita!")
-    st.subheader("Python Developer | C++ Enthusiast | Problem Solver")
+    st.markdown("## 👩‍💻 About Me")
+    st.subheader("Aspiring Python Developer | C++ Enthusiast | Problem Solver")
+    
     st.write("""
     Welcome to my portfolio!  
     Here you can find my projects, resume, and contact info.
     """)
-
-# ---- Skills ----
-st.header("Skills")
-st.write("- Python\n- C++\n- SQL\n- Data Structures\n- Git")
+st.image("https://media3.giphy.com/media/78XCFBGOlS6keY1Bil/giphy.gif?cid=6c09b9524r6u8furf7gf4awp0dz0rgulhx7rfu95rneclhkg&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g", width=300)
+# ---- SKILLS ----
+st.write("## Skills")
+st.markdown("""
+- Languages: C++, Python (Beginner)
+- Web: HTML, CSS
+- Tools: Git, VS Code, Streamlit
+- Soft Skills: Problem Solving, Fast Learner, Consistent
+""")
 
 # ---- Projects ----
 st.header("Projects")
 st.write("1. Personal Expense Tracker - A CLI app to track and visualize your expenses.")
-st.write("2. Resume Analyzer - Python-based tool to check resume quality.")
-st.write("3. Early Depression Detection - ML model to detect signs of early depression using text input.")
-st.write("4. Object Detection App - TensorFlow-based app to detect human activities like sitting or eating.")
 st.write("5. Face Detection using Python - Detects and highlights faces in real-time using OpenCV.")
 st.write("6. Farm Website - A responsive website for farmers and buyers. [Visit Website](https://sureshambalkar.netlify.app/location)")
 
