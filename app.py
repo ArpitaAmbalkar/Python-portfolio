@@ -4,10 +4,10 @@ st.set_page_config(page_title="Arpita's Portfolio", page_icon=":sparkles:")
 
 
 #_-------------------------
-image=Image.open("my_image.webp")
-with st.container():
-    left_column,right_columns([1,2])
-    with left_column:
+#image=Image.open("my_image.webp")
+#with st.container():
+    #left_column,right_columns([1,2])
+    #with left_column:
         st.image(image,width=150)
 
 
